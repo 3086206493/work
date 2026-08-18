@@ -1,0 +1,6 @@
+# 本项目唯一外部依赖：MySQL 驱动（Web/CLI/流水线都靠它连本地 MySQL）。
+# Web 页面使用 Python 标准库 http.server，无需 Flask/Django。
+pymysql>=1.1.0
+
+# 安装：pip install -r requirements.txt
+# Python 要求：3.8+
